@@ -9,6 +9,9 @@ int main(int argc, char **argv)
     askname(first, last);
 
     printf("Hello, %s %s!\n", first, last);
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
     return 0;
 }
 
