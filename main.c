@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 
     askname(first, last);
 
-    printf("Hello, %s %s!\n", first, last);
+    printf("Hey there, %s %s!\n", first, last);
     int age;
     printf("Enter your age: ");
     scanf("%d", &age);
